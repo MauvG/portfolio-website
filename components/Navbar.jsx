@@ -6,12 +6,15 @@ import { useState } from "react";
 
 const Navbar = () => {
   const [dropdown, setDropdown] = useState(false);
+  const [dropdownPos, setDropdownPos] = useState(0);
 
   const handleDropdown = () => {
     if (dropdown === false) {
       setDropdown(true);
+      setDropdownPos("0");
     } else {
       setDropdown(false);
+      setDropdownPos("100");
     }
   };
 
@@ -44,17 +47,20 @@ const Navbar = () => {
           </button>
         </div>
 
-        {dropdown === true ? (
-          <div className="text-center flex flex-col m-4 gap-2 transform ease-linear delay-500">
-            <button>Home</button>
-            <button>About</button>
-            <button>Skills</button>
-            <button>Projects</button>
-            <button>Contact</button>
-          </div>
-        ) : (
+        {/* {dropdown === true ? ( */}
+        <div
+          className="absolute flex flex-col w-full left-0 bg-white p-4 gap-2 transition-transform ease-out duration-500"
+          style={{ transform: `translateX(${dropdownPos}vw)` }}
+        >
+          <button>Home</button>
+          <button>About</button>
+          <button>Skills</button>
+          <button>Projects</button>
+          <button>Contact</button>
+        </div>
+        {/* ) : (
           <></>
-        )}
+        )} */}
       </nav>
     </div>
   );

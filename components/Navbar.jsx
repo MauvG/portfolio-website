@@ -20,7 +20,7 @@ const Navbar = () => {
       {/* Desktop */}
       <nav className="sm:flex hidden m-4 justify-between">
         <div className="ml-20 text-lg">
-          <h1 className="text-blue-600 font-semibold">Muavia Ghazi</h1>
+          <h1 className="text-blue-600 font-bold">Muavia Ghazi</h1>
         </div>
 
         <div className="flex mr-20 gap-5">
@@ -36,7 +36,7 @@ const Navbar = () => {
       <nav className="sm:hidden m-4 ">
         <div className="flex justify-between">
           <div className="text-2xl">
-            <h1 className="text-blue-600 font-semibold">Muavia Ghazi</h1>
+            <h1 className="text-blue-600 font-bold">Muavia Ghazi</h1>
           </div>
 
           <button onClick={handleDropdown} className="">

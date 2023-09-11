@@ -16,7 +16,7 @@ const About = () => {
             width={500}
             height={500}
             priority
-            className="rounded-2xl shadow-xl ml-auto mr-auto "
+            className="rounded-2xl shadow-lg shadow-gray-500 ml-auto mr-auto "
           />
         </div>
         <div className="flex-1 m-10">
@@ -49,7 +49,7 @@ const About = () => {
             width={500}
             height={500}
             priority
-            className="rounded-2xl shadow-xl"
+            className="rounded-2xl shadow-lg shadow-gray-500"
           />
         </div>
         <div className="flex-1 m-5">

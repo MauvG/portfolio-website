@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Home = () => {
   return (
-    <div className="">
+    <div className="mb-40">
       {/* Desktop */}
       <div className="sm:flex hidden items-center justify-center m-20">
         <div className="text-5xl font-bold">
@@ -59,7 +59,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="text-center m-10 animate-bounce text-blue-600">
+      <div className="sm:block hidden absolute left-[50%] translate-x-[-50%]  bottom-10 border-2 rounded-full p-1 border-blue-600 animate-bounce text-blue-600">
         <ArrowDownward fontSize="large" />
       </div>
     </div>

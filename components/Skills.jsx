@@ -17,16 +17,24 @@ const Skills = () => {
                 Programming Languages
               </h1>
               <ul>
-                <li className="rounded-lg p-2 m-2 shadow-md border">Java</li>
-                <li className="rounded-lg p-2 m-2 shadow-md border">
+                <li className="rounded-lg p-2 m-2 shadow-md border-2 border-black">
+                  Java
+                </li>
+                <li className="rounded-lg p-2 m-2 shadow-md border-2 border-black">
                   JavaScript
                 </li>
-                <li className="rounded-lg p-2 m-2 shadow-md border">
+                <li className="rounded-lg p-2 m-2 shadow-md border-2 border-black">
                   HTML & CSS
                 </li>
-                <li className="rounded-lg p-2 m-2 shadow-md border">Python</li>
-                <li className="rounded-lg p-2 m-2 shadow-md border">Lua</li>
-                <li className="rounded-lg p-2 m-2 shadow-md border">C</li>
+                <li className="rounded-lg p-2 m-2 shadow-md border-2 border-black">
+                  Python
+                </li>
+                <li className="rounded-lg p-2 m-2 shadow-md border-2 border-black">
+                  Lua
+                </li>
+                <li className="rounded-lg p-2 m-2 shadow-md border-2 border-black">
+                  C
+                </li>
               </ul>
             </div>
 
@@ -34,16 +42,19 @@ const Skills = () => {
               <h1 className="text-center text-blue-600 font-bold m-4">
                 Frameworks & Libraries
               </h1>
-
               <ul>
-                <li className="rounded-lg p-2 m-2 shadow-md border">Next js</li>
-                <li className="rounded-lg p-2 m-2 shadow-md border">
+                <li className="rounded-lg p-2 m-2 shadow-md border-2 border-black">
+                  Next js
+                </li>
+                <li className="rounded-lg p-2 m-2 shadow-md border-2 border-black">
                   React js
                 </li>
-                <li className="rounded-lg p-2 m-2 shadow-md border">
+                <li className="rounded-lg p-2 m-2 shadow-md border-2 border-black">
                   Mongo DB
                 </li>
-                <li className="rounded-lg p-2 m-2 shadow-md border">Git</li>
+                <li className="rounded-lg p-2 m-2 shadow-md border-2 border-black">
+                  Git
+                </li>
               </ul>
             </div>
           </div>
@@ -55,7 +66,7 @@ const Skills = () => {
             width={500}
             height={500}
             priority
-            className="rounded-2xl shadow-lg shadow-gray-500 m-auto "
+            className="border-2 border-black rounded-2xl shadow-lg shadow-gray-500 m-auto "
           />
         </div>
       </div>
@@ -70,16 +81,24 @@ const Skills = () => {
                 Programming Languages
               </h1>
               <ul>
-                <li className="rounded-lg p-2 m-2 shadow-md border">Java</li>
-                <li className="rounded-lg p-2 m-2 shadow-md border">
+                <li className="rounded-lg p-2 m-2 shadow-md border-2 border-black">
+                  Java
+                </li>
+                <li className="rounded-lg p-2 m-2 shadow-md border-2 border-black">
                   JavaScript
                 </li>
-                <li className="rounded-lg p-2 m-2 shadow-md border">
+                <li className="rounded-lg p-2 m-2 shadow-md border-2 border-black">
                   HTML & CSS
                 </li>
-                <li className="rounded-lg p-2 m-2 shadow-md border">Python</li>
-                <li className="rounded-lg p-2 m-2 shadow-md border">Lua</li>
-                <li className="rounded-lg p-2 m-2 shadow-md border">C</li>
+                <li className="rounded-lg p-2 m-2 shadow-md border-2 border-black">
+                  Python
+                </li>
+                <li className="rounded-lg p-2 m-2 shadow-md border-2 border-black">
+                  Lua
+                </li>
+                <li className="rounded-lg p-2 m-2 shadow-md border-2 border-black">
+                  C
+                </li>
               </ul>
             </div>
 
@@ -89,14 +108,18 @@ const Skills = () => {
               </h1>
 
               <ul>
-                <li className="rounded-lg p-2 m-2 shadow-md border">Next js</li>
-                <li className="rounded-lg p-2 m-2 shadow-md border">
+                <li className="rounded-lg p-2 m-2 shadow-md border-2 border-black">
+                  Next js
+                </li>
+                <li className="rounded-lg p-2 m-2 shadow-md border-2 border-black">
                   React js
                 </li>
-                <li className="rounded-lg p-2 m-2 shadow-md border">
+                <li className="rounded-lg p-2 m-2 shadow-md border-2 border-black">
                   Mongo DB
                 </li>
-                <li className="rounded-lg p-2 m-2 shadow-md border">Git</li>
+                <li className="rounded-lg p-2 m-2 shadow-md border-2 border-black">
+                  Git
+                </li>
               </ul>
             </div>
           </div>
@@ -108,7 +131,7 @@ const Skills = () => {
             width={500}
             height={500}
             priority
-            className="rounded-2xl shadow-lg shadow-gray-500"
+            className="border-2 border-black rounded-2xl shadow-lg shadow-gray-500"
           />
         </div>
       </div>

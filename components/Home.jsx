@@ -27,6 +27,7 @@ const Home = () => {
             priority
             width={500}
             height={500}
+            className=""
           />
         </div>
       </div>

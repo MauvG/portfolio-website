@@ -5,15 +5,15 @@ import Link from "next/link";
 const ProjectCard = ({ src, name, website, desc, skills, github }) => {
   return (
     <div className="basis-44">
-      <div className="border-2 border-black shadow-lg w-[300px] min-h-[70vh] rounded-xl">
-        <div className="m-4 border-2 border-black">
+      <div className="border-2 rounded-2xl shadow-lg shadow-gray-400 w-[300px] min-h-[70vh]">
+        <div className="m-4">
           <Image
             src={src ? src : "/"}
             alt={name}
             width={500}
             height={500}
             priority
-            className=""
+            className="border-2 rounded-lg shadow-md shadow-gray-400"
           />
         </div>
         <div className="m-4 text-center">

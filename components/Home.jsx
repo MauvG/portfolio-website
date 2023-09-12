@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Home = () => {
   return (
-    <div className="mb-40">
+    <div id="home" className="mb-40">
       {/* Desktop */}
       <div className="sm:flex hidden items-center justify-center m-20">
         <div className="text-5xl font-bold">

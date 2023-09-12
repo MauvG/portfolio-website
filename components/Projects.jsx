@@ -2,7 +2,7 @@ import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   return (
-    <div className="">
+    <div id="projects">
       <h1 className="text-4xl font-bold text-blue-600 text-center m-20">
         Projects
       </h1>

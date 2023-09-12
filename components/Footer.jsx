@@ -4,7 +4,6 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <div className="mt-20 mb-20">
-      <hr className="w-full"/>
       <div className="flex justify-center gap-5 m-20">
         <Link href={"https://www.github.com/MauvG"}>
           <GitHub fontSize="large" className="hover:text-blue-600" />

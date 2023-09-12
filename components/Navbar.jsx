@@ -24,10 +24,18 @@ const Navbar = () => {
         </div>
 
         <div className="flex mr-20 gap-5">
-          <button>Home</button>
-          <button>About</button>
-          <button>Skills</button>
-          <button>Projects</button>
+          <Link href="#home" className="hover:underline underline-offset-8">
+            Home
+          </Link>
+          <Link href="#about" className="hover:underline underline-offset-8">
+            About
+          </Link>
+          <Link href="#skills" className="hover:underline underline-offset-8">
+            Skills
+          </Link>
+          <Link href="#projects" className="hover:underline underline-offset-8">
+            Projects
+          </Link>
         </div>
       </nav>
 
@@ -47,10 +55,21 @@ const Navbar = () => {
           <div
             className={`absolute flex flex-col w-full left-0 bg-white p-4 gap-2`}
           >
-            <button>Home</button>
-            <button>About</button>
-            <button>Skills</button>
-            <button>Projects</button>
+            <Link href="#home" className="hover:underline underline-offset-8">
+              Home
+            </Link>
+            <Link href="#about" className="hover:underline underline-offset-8">
+              About
+            </Link>
+            <Link href="#skills" className="hover:underline underline-offset-8">
+              Skills
+            </Link>
+            <Link
+              href="#projects"
+              className="hover:underline underline-offset-8"
+            >
+              Projects
+            </Link>
           </div>
         ) : (
           <></>

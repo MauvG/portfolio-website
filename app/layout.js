@@ -11,7 +11,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="tracking-wider">
+    <html lang="en" className="tracking-wider scroll-smooth">
       <body className={inter.className}>
         <Navbar />
         {children}

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div>
+    <div id="about">
       <h1 className="text-4xl font-bold text-blue-600 text-center m-20">
         About Me
       </h1>
@@ -16,7 +16,7 @@ const About = () => {
             width={500}
             height={500}
             priority
-            className="border-2 border-black rounded-2xl shadow-lg shadow-gray-500 ml-auto mr-auto "
+            className=" rounded-2xl shadow-lg shadow-gray-500 ml-auto mr-auto "
           />
         </div>
         <div className="flex-1 m-10">
@@ -49,7 +49,7 @@ const About = () => {
             width={500}
             height={500}
             priority
-            className="border-2 border-black rounded-2xl shadow-lg shadow-gray-500"
+            className=" rounded-2xl shadow-lg shadow-gray-500"
           />
         </div>
         <div className="flex-1 m-5">

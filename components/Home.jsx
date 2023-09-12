@@ -1,5 +1,6 @@
-import { ArrowDownward } from "@mui/icons-material";
+import { ArrowDownward, Email, GitHub, LinkedIn } from "@mui/icons-material";
 import Image from "next/image";
+import Link from "next/link";
 
 const Home = () => {
   return (
@@ -18,6 +19,20 @@ const Home = () => {
           <button className="text-lg rounded-lg p-2 pl-4 pr-4 mt-10 bg-blue-500 text-white">
             About Me
           </button>
+
+          <div className="flex gap-5 mt-10">
+            <Link href={"https://www.github.com/MauvG"}>
+              <GitHub fontSize="large" className="hover:text-blue-600" />
+            </Link>
+
+            <Link href={"https://www.linkedin.com/in/muavia-ghazi/"}>
+              <LinkedIn fontSize="large" className=" hover:text-blue-600" />
+            </Link>
+
+            <Link href="mailto:MuaviaIjazGhazi@gmail.com">
+              <Email fontSize="large" className=" hover:text-blue-600" />
+            </Link>
+          </div>
         </div>
 
         <div className="">
@@ -57,6 +72,20 @@ const Home = () => {
           <button className="text-lg font-medium rounded-lg p-2 pl-4 pr-4 m-10 bg-blue-500 text-white">
             About Me
           </button>
+
+          <div className="flex justify-center gap-5">
+            <Link href={"https://www.github.com/MauvG"}>
+              <GitHub fontSize="large" className="hover:text-blue-600" />
+            </Link>
+
+            <Link href={"https://www.linkedin.com/in/muavia-ghazi/"}>
+              <LinkedIn fontSize="large" className=" hover:text-blue-600" />
+            </Link>
+
+            <Link href="mailto:MuaviaIjazGhazi@gmail.com">
+              <Email fontSize="large" className=" hover:text-blue-600" />
+            </Link>
+          </div>
         </div>
       </div>
 

@@ -34,8 +34,6 @@ const Projects = () => {
           github=""
         />
       </div>
-
-      
     </div>
   );
 };

@@ -28,7 +28,6 @@ const Navbar = () => {
           <button>About</button>
           <button>Skills</button>
           <button>Projects</button>
-          <button>Contact</button>
         </div>
       </nav>
 
@@ -52,7 +51,6 @@ const Navbar = () => {
             <button>About</button>
             <button>Skills</button>
             <button>Projects</button>
-            <button>Contact</button>
           </div>
         ) : (
           <></>

@@ -4,8 +4,8 @@ import Link from "next/link";
 
 const ProjectCard = ({ src, name, website, desc, skills, github }) => {
   return (
-    <div className="basis-44">
-      <div className="border-2 rounded-2xl shadow-lg shadow-gray-400 w-[300px] min-h-[70vh]">
+    <div className="hiddenElement rightSlide basis-44">
+      <div className="border-2 rounded-xl shadow-md shadow-gray-400 w-[300px] min-h-[70vh]">
         <div className="m-4">
           <Image
             src={src ? src : "/"}

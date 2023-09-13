@@ -3,23 +3,23 @@ import Image from "next/image";
 const About = () => {
   return (
     <div id="about">
-      <h1 className="text-4xl font-bold text-blue-600 text-center m-20">
+      <h1 className="hiddenElement upSlide text-4xl font-bold text-blue-600 text-center m-20">
         About Me
       </h1>
 
       {/* Dekstop */}
       <div className="md:flex hidden justify-center m-5 items-center">
-        <div className="flex-1 m-5 object-right">
+        <div className="hiddenElement leftSlide flex-1 m-5 object-right">
           <Image
             src="/College.jpeg"
             alt="Trinity College"
             width={500}
             height={500}
             priority
-            className=" rounded-2xl shadow-lg shadow-gray-500 ml-auto mr-auto "
+            className="rounded-2xl shadow-lg shadow-gray-500 ml-auto mr-auto "
           />
         </div>
-        <div className="flex-1 m-10">
+        <div className="hiddenElement rightSlide flex-1 m-10">
           <h1 className="text-lg">
             My name is <span className="font-bold">Muavia Ghazi</span>
           </h1>
@@ -42,7 +42,7 @@ const About = () => {
 
       {/* Mobile */}
       <div className="md:hidden flex flex-col justify-center m-5 items-center text-center text-sm">
-        <div className="flex-1 m-5 resize-none">
+        <div className="hiddenElement leftSlide flex-1 m-5 resize-none">
           <Image
             src="/College.jpeg"
             alt="Trinity College"
@@ -52,7 +52,7 @@ const About = () => {
             className=" rounded-2xl shadow-lg shadow-gray-500"
           />
         </div>
-        <div className="flex-1 m-5">
+        <div className="hiddenElement rightSlide flex-1 m-5">
           <h1 className="text-xl">
             My name is <span className="font-bold">Muavia Ghazi</span>
           </h1>

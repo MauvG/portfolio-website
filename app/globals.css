@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hiddenElement {
+  opacity: 0;
+  filter: blur(2px);
+  transition: all 1s;
+}
+
+.leftSlide {
+  transform: translateX(-100%);
+}
+
+.rightSlide {
+  transform: translateX(100%);
+}
+
+.downSlide {
+  transform: translateY(-100%);
+}
+
+.upSlide {
+  transform: translateY(100%);
+}
+
+.scaleUp {
+  transform: scale(0);
+}
+
+.showElement {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+  transform: scale(1);
+}

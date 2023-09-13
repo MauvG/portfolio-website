@@ -9,19 +9,19 @@
 }
 
 .leftSlide {
-  transform: translateX(-100%);
+  transform: translateX(-75%);
 }
 
 .rightSlide {
-  transform: translateX(100%);
+  transform: translateX(75%);
 }
 
 .downSlide {
-  transform: translateY(-100%);
+  transform: translateY(-75%);
 }
 
 .upSlide {
-  transform: translateY(100%);
+  transform: translateY(75%);
 }
 
 .scaleUp {

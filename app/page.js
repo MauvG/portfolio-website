@@ -9,16 +9,18 @@ import { useEffect } from "react";
 
 const page = () => {
   useEffect(() => {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        console.log(entry);
-        if (entry.isIntersecting) {
-          entry.target.classList.add("showElement");
-        } else {
-          entry.target.classList.remove("showElement");
-        }
-      });
-    });
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("showElement");
+          } else {
+            entry.target.classList.remove("showElement");
+          }
+        });
+      },
+      { threshold: 0.25 }
+    );
 
     const hiddenElements = document.querySelectorAll(".hiddenElement");
     hiddenElements.forEach((element) => observer.observe(element));

@@ -6,15 +6,24 @@ const Footer = () => {
     <div className="mt-20 mb-20">
       <div className="flex justify-center gap-5 m-20">
         <Link href={"https://www.github.com/MauvG"}>
-          <GitHub fontSize="large" className="hover:text-blue-600" />
+          <GitHub
+            fontSize="large"
+            className="hover:text-blue-600 hiddenElement scaleUp"
+          />
         </Link>
 
         <Link href={"https://www.linkedin.com/in/muavia-ghazi/"}>
-          <LinkedIn fontSize="large" className=" hover:text-blue-600" />
+          <LinkedIn
+            fontSize="large"
+            className=" hover:text-blue-600 hiddenElement scaleUp"
+          />
         </Link>
 
         <Link href="mailto:MuaviaIjazGhazi@gmail.com">
-          <Email fontSize="large" className=" hover:text-blue-600" />
+          <Email
+            fontSize="large"
+            className=" hover:text-blue-600 hiddenElement scaleUp"
+          />
         </Link>
       </div>
     </div>

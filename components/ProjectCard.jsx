@@ -13,7 +13,7 @@ const ProjectCard = ({ src, name, website, desc, skills, github }) => {
             width={500}
             height={500}
             priority
-            className="border-2 rounded-lg shadow-md shadow-gray-400"
+            className="rounded-lg shadow-md shadow-gray-400"
           />
         </div>
         <div className="m-4 text-center">

@@ -16,9 +16,12 @@ const Home = () => {
             Computer Science student at Trinity College, Dublin
           </p>
 
-          <button className="text-lg rounded-lg p-2 pl-4 pr-4 mt-10 bg-blue-500 text-white">
+          <Link
+            href="#about"
+            className="text-lg rounded-lg p-2 pl-4 pr-4 mt-10 bg-blue-500 text-white"
+          >
             About Me
-          </button>
+          </Link>
 
           <div className="flex gap-5 mt-10">
             <Link href={"https://www.github.com/MauvG"}>
@@ -69,9 +72,12 @@ const Home = () => {
             Computer Science student at Trinity College, Dublin
           </p>
 
-          <button className="text-lg font-medium rounded-lg p-2 pl-4 pr-4 m-10 bg-blue-500 text-white">
+          <Link
+            href="#about"
+            className="text-lg font-medium rounded-lg p-2 pl-4 pr-4 m-10 bg-blue-500 text-white"
+          >
             About Me
-          </button>
+          </Link>
 
           <div className="flex justify-center gap-5">
             <Link href={"https://www.github.com/MauvG"}>

@@ -16,9 +16,9 @@ const Navbar = () => {
   };
 
   return (
-    <div>
+    <div className="">
       {/* Desktop */}
-      <nav className="sm:flex hidden m-4 justify-between">
+      <nav className="sm:flex hidden m-2 p-2 justify-between">
         <div className="ml-20 text-lg">
           <h1 className="text-blue-600 font-bold">Muavia Ghazi</h1>
         </div>

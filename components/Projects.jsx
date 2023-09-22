@@ -29,7 +29,7 @@ const Projects = () => {
           src="/projects/roblox.PNG"
           name="Roblox Game"
           website="https://www.roblox.com/games/11879742279/Every-second-you-get-1-height#!/about"
-          desc="A roblox game, where your character gets taller every second. It has almost 30K visits."
+          desc="A roblox game with over 30k visits where your character gets taller every second and tries to complete various challenges."
           skills="Lua, Roblox Studio"
           github=""
         />
